@@ -5,13 +5,13 @@ A simple python image converter
 
 Install pillow using pip.
 
-```sh
+```bash
 pip install pillow
 ```
 
 ## How to use:
 ### run
-```sh 
+```bash 
 python resizer.py [imagefilename] [operation] [argument]
 ```
 
@@ -35,19 +35,24 @@ widthxheight : To resize eg. 200x200
 
 1.Image format conversion
 
-```sh
-python resizer.py image.jpg -f png #Converts jpg to png format
+To Converts jpg to png format
+```bash
+python resizer.py image.jpg -f png
 ```
-```sh
-python resizer.py image2.png -f jpg #Converts png to jpg format
+To Converts png to jpg format
+```bash
+python resizer.py image2.png -f jpg 
 ```
 
 2.Image resizing
-```sh
-python resizer.py image.jpg -r 200x200 #Resize jpg image
+
+To Resize jpg image
+```bash
+python resizer.py image.jpg -r 200x200
 ```
-```sh
-python resizer.py image2.png -r 250x300 #Resize png image
+To Resize png image
+```bash
+python resizer.py image2.png -r 250x300
 ```
 
 ## Libraries used
