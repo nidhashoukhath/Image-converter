@@ -10,6 +10,28 @@ pip install pillow
 ```
 
 ## How to use:
+### run
+```sh 
+python resizer.py [imagefilename] [operation] [argument]
+```
+
+### imageFileName
+Name of your image file
+### operation 
+
+-f  : To convert imgage format from jpg to png and viceversa
+
+-r  : To resize the image
+
+### argument
+
+jpg : To convert to jpg format
+
+png : To convert to png format
+
+widthxheight : To resize eg. 200x200
+
+### Examples:
 
 1.Image format conversion
 
