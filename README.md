@@ -1,19 +1,18 @@
-# Image Converter-Resizer Cli
-A simple python image converter
+# IMAGE-PRO (Image Converter-Resizer Cli) 
+A simple python image converter that helps to convert type and size of given image.
 
-## Installation
+## Team members
+1. Nidha Shoukhath KP[https://github.com/nidhashoukhath]
+2. Athul sai[https://github.com/athulsai66]
 
-Install pillow using pip.
+## Team ID
+Python / 429
 
-```bash
-pip install pillow
-```
+## Link to video walkthrough
+[https://www.loom.com/share/1514a81506124d97a25062e6d07d5829]
 
-## How to use:
-### run
-```bash 
-python resizer.py [imagefilename] [operation] [argument]
-```
+
+## How it works ?
 
 ### imageFileName
 Name of your image file
@@ -57,3 +56,16 @@ python resizer.py image2.png -r 250x300
 
 ## Libraries used
 -[pillow](https://python-pillow.org/)
+
+## Installation
+
+Install pillow using pip.
+
+```bash
+pip install pillow
+```
+
+## How to Run:
+```bash 
+python resizer.py [imagefilename] [operation] [argument]
+```
